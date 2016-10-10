@@ -1,0 +1,75 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.navbar{
+  margin-bottom: 0;
+  ba
+}
+.cart-icon{
+  width:auto;
+  height: 2.7vh;
+}
+/*.container-fluid{
+  padding: 0;
+}*/
+.hero{
+  height: 50vh;
+  padding-top: 5em;
+  background:linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../Sources/hero.jpeg");
+  background-size: cover;
+}
+.hero *{
+  margin-top: 2em;
+}
+.hero h1{
+  margin-top: 0;
+  font-size: 6rem;
+}
+.hero{
+  color: white;
+  font-size: 1.7rem;
+}
+.hero .btn{
+display: table;
+.padding:
+}
+.section-header{
+  margin: 2em 0 .5em;
+}
+.catalog{
+
+}
+.item{
+  margin: 0 .5em 1.5em;
+  position: relative;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 1em;
+}
+
+.item input[type="number"]{
+  margin-left: 1em;
+}
+
+.item input[type="submit"]{
+  position: absolute;
+  right: 1em;
+  bottom: 1em;
+}
+.footer-container{
+  padding: 0;
+}
+footer{
+  background: black;
+  color: white;
+  height: 100%;
+}
+footer p{
+  margin: 0;
+  padding: .5em;
+}
