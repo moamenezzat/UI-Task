@@ -13,12 +13,17 @@ body{
 
 .nav-icon{
   width:auto;
-  height: 2.7vh;
+  height: 2.2em;
+  margin-top: 1em;
+  margin-left: 1em;
 }
 .admin .nav-icon{
-  height: 3.5vh;
+  /*height: 2.5em;*/
+  margin-top: 0;
 }
-
+.navbar-right li a{
+  padding: 0;
+}
 .admin .navbar-right{
   margin-top: .9em;
 }
