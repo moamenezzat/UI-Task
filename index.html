@@ -21,7 +21,7 @@
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
@@ -29,22 +29,20 @@
              </button>
              <a class="navbar-brand" href="#">eStore Mockup</a>
             </div>
-            <div class="collapse navbar-collapse">
+            <div class="collapse navbar-collapse" id="collapse">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><button type="button" class="btn btn-default navbar-btn">Log in</button></li>
+                    <li><a href="../login.html"><button type="button" class="btn btn-default navbar-btn">Log in</button></a></li>
                     <li>
-                        <a href="#" class=""><img class="img-responsive cart-icon" src="Sources/shopping-cart.svg" alt="Press to toggle cart" /></a>
+                        <a href="#" class=""><img class="img-responsive nav-icon" src="Sources/shopping-cart.svg" alt="Press to toggle cart" /></a>
                     </li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
     </nav>
     <div class="container-fluid">
         <div class="row hero">
@@ -115,7 +113,6 @@
     <div class="container-fluid footer-container"><footer>
         <p class="text-center">&copy; Company 2016</p>
     </footer></div>
-    <!-- /container -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="JS/bootstrap.min.js"></script>

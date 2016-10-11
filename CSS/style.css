@@ -8,15 +8,24 @@ body{
 
 .navbar{
   margin-bottom: 0;
-  ba
+  border-radius: 0;
 }
-.cart-icon{
+
+.nav-icon{
   width:auto;
   height: 2.7vh;
 }
-/*.container-fluid{
-  padding: 0;
-}*/
+.admin .nav-icon{
+  height: 3.5vh;
+}
+
+.admin .navbar-right{
+  margin-top: .9em;
+}
+.admin .navbar-right *{
+  margin-left: .5em;
+  font-size: 1.1em;
+}
 .hero{
   height: 50vh;
   padding-top: 5em;
@@ -72,4 +81,64 @@ footer{
 footer p{
   margin: 0;
   padding: .5em;
+}
+.login-form.container-fluid{
+  height: 90vh;
+}
+.full{
+  height:100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.form-container{
+  padding: 2em;
+  width: 25em;
+  height: auto;
+  border: 1px solid rgb(168, 168, 168);
+  box-shadow:  0 0 5px 1px rgb(78, 121, 145);
+}
+.form-container form{
+  width: 100%;
+}
+.form-control:not(:last-of-type){
+  margin-bottom: 1.6em;
+}
+.form-control{
+  border: 1px solid grey;
+    font-size: 1.3em;
+}
+/*.form-control:not(:last-of-type):valid {
+  border: 1px solid green;
+}
+.form-control:invalid{
+  border: 1px solid rgb(194, 22, 17);
+  outline: none;
+}*/
+.form-control:last-of-type{
+  background: #7ac2f5;
+  color: white;
+  font-size: 1.3em;
+  height: 100%;
+  border-color: #7ac2f5;
+}
+.form-container a{
+  margin-top: 1em;
+}
+.panel-container.container-fluid{
+  height: 92vh;
+  padding: 0;
+}
+.panel-container *{
+  height: 100%;
+  margin: 0;
+  border-radius: 0;
+}
+.side-bar{
+  background: rgb(194, 238, 228);
+}
+
+.panel{
+  background: rgb(62, 190, 182);
 }
