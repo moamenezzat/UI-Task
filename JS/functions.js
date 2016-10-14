@@ -13,7 +13,7 @@ var addedSign = $(".added"),
     catList = $(".category-list"),
     catDropDown = $("#cat-select"),
     itemsList = $(".items-list"),
-    catalogUrl = "../Sources/catalog.json";
+    catalogUrl = "./Sources/catalog.json";
 var loadAdminContent = function() {
     $.ajax({
         url: catalogUrl,
@@ -125,9 +125,9 @@ $(document).ready(function() {
                 adminCred = "admin";
             console.log(loginPassword, loginUser);
             if (loginUser == adminCred && loginPassword == adminCred) {
-                window.location.href = '../admin.html';
+                window.location.href = './admin.html';
             } else {
-                window.location.href = '../';
+                window.location.href = './';
             }
         }
     });
