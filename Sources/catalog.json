@@ -1,0 +1,66 @@
+{
+    "category": ["category1", "category2", "category3", "category4", "category5"],
+    "items": [
+            {"Title": "Item 1",
+            "ImgUrl": "Sources/Img-item.png",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim",
+            "price": "600.00",
+            "category": "category1"
+        },
+        {
+            "Title": "Item 2",
+            "ImgUrl": "Sources/Img-item.png",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim",
+            "price": "600.00",
+            "category": "category2"
+        },
+        {
+            "Title": "Item 3",
+            "ImgUrl": "Sources/Img-item.png",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim",
+            "price": "600.00",
+            "category": "category3"
+        },
+        {
+            "Title": "Item 4",
+            "ImgUrl": "Sources/Img-item.png",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim",
+            "price": "600.00",
+            "category": "category3"
+        },
+        {
+            "Title": "Item 5",
+            "ImgUrl": "Sources/Img-item.png",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim",
+            "price": "600.00",
+            "category": "category3"
+        },
+        {
+            "Title": "Item 6",
+            "ImgUrl": "Sources/Img-item.png",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim",
+            "price": "600.00",
+            "category": "category3"
+        },
+        {
+            "Title": "Item 7",
+            "ImgUrl": "Sources/Img-item.png",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim",
+            "price": "600.00",
+            "category": "category3"
+        },
+        {
+            "Title": "Item 8",
+            "ImgUrl": "Sources/Img-item.png",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim",
+            "price": "600.00",
+            "category": "category3"
+        },
+        {
+            "Title": "Item 9",
+            "ImgUrl": "Sources/Img-item.png",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim",
+            "price": "600.00",
+            "category": "category3"
+        }]
+}

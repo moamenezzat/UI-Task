@@ -31,7 +31,7 @@
             </div>
             <div class="collapse navbar-collapse" id="collapse">
                 <ul class="nav navbar-nav">
-                    <li ><a href="../">Home</a></li>
+                    <li><a href="../">Home</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
@@ -45,14 +45,44 @@
         </div>
     </nav>
     <div class="container-fluid panel-container">
-      <div class="side-bar col-lg-3"></div>
-      <div class="panel col-lg-9"></div>
+        <div class="items-container row">
+            <div class="col-lg-4 col-lg-offset-2">
+                <h3>Current Items</h3>
+                <ul class="items-list"></ul>
+            </div>
+            <div class="col-lg-3">
+                <form action="" id="new-Item">
+                    <input type="text" class="form-control" required="" name="itemname" placeholder="New Item Name" aria-label="New Item Name">
+                    <input type="text" class="form-control" name="itemurl" placeholder="New Item Image URL" aria-label="New Item Image URL" required>
+                    <input type="text" class="form-control" name="itemdesc" placeholder="New Item Description" aria-label="New Item Description" required>
+                    <input type="number" class="form-control" name="itemprice" required="" placeholder="New Item Price" min="1" aria-label="New Item Price" required>
+                    <div class="form-group">
+                        <label for="cat-select">Select Category</label>
+                        <select id="cat-select">
+                </select>
+                    </div>
+                    <input type="submit" class="form-control" value="Add New Item">
+                </form>
+            </div>
+        </div>
+        <div class="cat-container row">
+            <div class="col-lg-4 col-lg-offset-2">
+                <h3>Current Categories</h3>
+                <ul class="category-list"></ul>
+            </div>
+            <div class="col-lg-3 new-cat">
+                <form action="" id="new-cat"><input type="text" class="form-control" name="newcat" placeholder="New category Name" aria-label="New category Name" required><input type="submit" class="form-control" value="Add New Category" required></form>
+            </div>
+        </div>
+
     </div>
-    </div>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    <script src="JS/bootstrap.min.js"></script>
-    <script src="JS/functions.js"></script>
+    <div class="added"><img src="Sources/correct.svg" class="mg-responsive center-block">
+        <p class="text-center">list Updated Succefully</p>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.1/jquery.validate.min.js"></script>
+        <script src="JS/bootstrap.min.js"></script>
+        <script src="JS/functions.js"></script>
 </body>
 
 </html>
