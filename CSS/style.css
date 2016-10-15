@@ -52,6 +52,7 @@ body {
 
 .hero>* {
     margin-top: 3em;
+    margin-bottom: 0em;
 }
 
 .hero h1 {
@@ -143,6 +144,7 @@ footer p {
     transform: translateX(0%);
     transition: transform .6s ease-in-out;
     padding: 1em;
+    overflow-y: scroll;
 }
 
 .cart.out {
@@ -323,6 +325,6 @@ label.error {
         font-size: 6px;
     }
     .hero>* {
-        margin-top: .5em;
+        margin-top: .7em;
     }
 }
