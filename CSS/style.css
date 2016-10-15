@@ -8,6 +8,7 @@ body {
     position: relative;
 }
 
+/*Navbar styling*/
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
@@ -21,7 +22,6 @@ body {
 }
 
 .admin .nav-icon {
-    /*height: 2.5em;*/
     margin-top: 1em;
 }
 
@@ -39,6 +39,7 @@ body {
     font-size: 2.0rem;
 }
 
+/*Main page Hero styling*/
 .hero {
     height: 70vh;
     padding: 0em .5em;
@@ -47,7 +48,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    ;
 }
 
 .hero>* {
@@ -66,15 +66,17 @@ body {
 
 .hero .btn {
     display: table;
-    .padding:
 }
 
+.hero a {
+    text-decoration: none;
+}
+
+/*Catalog styling*/
 .section-header {
     margin: 1.5em 0 1em;
     font-size: 2.5em;
 }
-
-.catalog {}
 
 .item {
     margin: 0 .5em 1.5em;
@@ -115,6 +117,7 @@ body {
     visibility: visible;
 }
 
+/*Footer styling*/
 .footer-container {
     padding: 0;
 }
@@ -129,76 +132,7 @@ footer {
 footer p {
     margin: 0;
 }
-
-.login-form.container-fluid {
-    min-height: 88.4vh;
-}
-
-.full {
-    padding: 0 .5em;
-}
-
-.form-container {
-    padding: 2em;
-    height: auto;
-    border: 1px solid rgb(168, 168, 168);
-    box-shadow: 0 0 5px 1px rgb(78, 121, 145);
-    margin-bottom: 2em;
-    margin-top: 2em;
-}
-
-.form-container form {
-    width: 100%;
-}
-
-.form-control:not(:last-of-type) {
-    margin-bottom: 1.1em;
-}
-
-.form-control {
-    border: 1px solid grey;
-    font-size: 2rem;
-}
-
-.form-control:last-of-type {
-    background: #7ac2f5;
-    color: white;
-    font-size: 1.3em;
-    height: 100%;
-    border-color: #7ac2f5;
-}
-
-.form-container a {
-    margin-top: 1em;
-}
-
-.admin .panel-container.container-fluid {
-    height: 92vh;
-    padding: 0;
-    color: white;
-}
-
-.panel-container>* {
-    height: auto;
-    margin: 0;
-    border-radius: 0;
-    padding: 1em;
-    min-height: 50%;
-}
-
-.items-container {
-    background: rgb(16, 129, 164);
-}
-
-#cat-select {
-    color: black;
-}
-
-.cat-container {
-    background: rgb(62, 190, 182);
-    color: white;
-}
-
+/*Cart styling*/
 .cart {
     position: fixed;
     height: 100vh;
@@ -248,7 +182,7 @@ footer p {
 }
 
 .table, th, td {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     text-align: center;
 }
 
@@ -264,6 +198,7 @@ footer p {
     cursor: pointer;
 }
 
+/*Success modals styling */
 .added, .removed {
     position: fixed;
     top: 50vh;
@@ -284,11 +219,84 @@ footer p {
     height: auto;
 }
 
-/*Label genrated from validation plugin*/
+/*Login page styling*/
+.login-form.container-fluid {
+    min-height: 88.4vh;
+}
+
+.full {
+    padding: 0 .5em;
+}
+
+.form-container {
+    padding: 2em;
+    height: auto;
+    border: 1px solid rgb(168, 168, 168);
+    box-shadow: 0 0 5px 1px rgb(78, 121, 145);
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.form-container form {
+    width: 100%;
+}
+
+.form-control:not(:last-of-type) {
+    margin-bottom: 1.1em;
+}
+
+.form-control {
+    border: 1px solid grey;
+    font-size: 2rem;
+}
+
+.form-control:last-of-type {
+    background: #7ac2f5;
+    color: white;
+    font-size: 1.3em;
+    height: 100%;
+    border-color: #7ac2f5;
+}
+
+.form-container a {
+    margin-top: 1em;
+}
+
+/*Admin page styling*/
+.admin .panel-container.container-fluid {
+    height: 92vh;
+    padding: 0;
+    color: white;
+}
+
+.panel-container>* {
+    height: auto;
+    margin: 0;
+    border-radius: 0;
+    padding: 1em;
+    min-height: 50%;
+}
+
+.items-container {
+    background: rgb(16, 129, 164);
+}
+
+#cat-select {
+    color: black;
+}
+
+.cat-container {
+    background: rgb(62, 190, 182);
+    color: white;
+}
+
+/*Label generated from validation plugin*/
 label.error {
     color: red;
     transform: translateY(-1em);
 }
+
+/*Media Queries*/
 @media (max-width:1024px) {
      :root {
         font-size: 9px;
@@ -306,7 +314,7 @@ label.error {
         margin-left: 0.5em;
     }
     .hero>* {
-        margin-top: 2em;
+        margin-top: 1.5em;
     }
 }
 
@@ -315,6 +323,6 @@ label.error {
         font-size: 6px;
     }
     .hero>* {
-        margin-top: 1em;
+        margin-top: .5em;
     }
 }

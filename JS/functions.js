@@ -47,7 +47,7 @@ var loadHomeCatalog = function() {
                     desc = result.items[i].desc,
                     price = result.items[i].price,
                     cat = result.items[i].category;
-                catlogItemsContainer.push('<div class="item col-sm-6 col-lg-4"><img src="' + url + '" alt="item-picture" class="item-pic center-block"><h3 class="item-title text-center">' + name + '</h3><p class="description text-center">' + desc + '</p><h4 class="price text-center">' + price + '</h4><form action=""><div class="center-block order-number"><label for="item-number">Number of items to order:</label><input class="pull-right" type="number" value="1" min="1" id="item-number" required><p class="notification">*Please Fill Number of Items</p></div><input type="submit" value="Order" class="btn btn-info center-block add-to-cart"></input></form></div>');
+                catlogItemsContainer.push('<div class="item col-sm-6 col-lg-4"><img src="' + url + '" alt="item picture" class="item-pic center-block"><h3 class="item-title text-center">' + name + '</h3><p class="description text-center">' + desc + '</p><h4 class="price text-center">' + price + '</h4><form action=""><div class="center-block order-number"><label for="item-number">Number of items to order:</label><input class="pull-right" type="number" value="1" min="1" id="item-number" required><p class="notification">*Please Fill Number of Items</p></div><input type="submit" value="Order" class="btn btn-info center-block add-to-cart"></input></form></div>');
             }
             $(".catalog").append(catlogItemsContainer.join(""));
         }
@@ -156,7 +156,6 @@ $(document).ready(function() {
             toggleSign(addedSign);
         }
     });
-
 
 // Load Home Catalog
     loadHomeCatalog();
