@@ -17,5 +17,5 @@ To acces the **Admin** page from login page use:
 
 Succefull submitting of forms on the website displays modal succes messages.
 
-
+Here is the detailed Description of the requested task:
 ![Alt text](/Sources/Task Description.png?raw=true "Task Description")
