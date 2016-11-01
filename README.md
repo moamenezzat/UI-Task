@@ -2,7 +2,7 @@
 
 This is a front-end mockup for an online store where you can add products to cart and remove them if wanted.
 
-This was developed as a part of job application
+This was developed as a part of job application.
 
 The items for the main page's catalog are stored in "catalog.json" in Sources folder. Items are loaded by AJAX GET request after the DOM is ready.
 
@@ -18,3 +18,4 @@ To acces the **Admin** page from login page use:
 Succefull submitting of forms on the website displays modal succes messages.
 
 
+![Alt text](/Sources/Task Description.png?raw=true "Task Description")
