@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>UI Task - Online Store</title>
+    <meta name="description" content="UI Task - Online Store">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/bootstrap.min - YETI.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script>window.html5 || document.write('<script src="js/html5shiv.js"><\/script>')</script>
+        <![endif]-->
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+           </button>
+                <a class="navbar-brand" href="index.html">eStore Mockup</a>
+            </div>
+            <div class="collapse navbar-collapse" id="collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home </a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid login-form">
+        <div class="row full">
+            <div class=" col-sm-4 col-sm-offset-1 form-container">
+                <form id="login">
+                    <input class="form-control" type="text" name="username" placeholder="User Name" aria-label="User Name" required>
+                    <input class="form-control" type="password" required name="password" placeholder="Passwaord" aria-label="Password">
+                    <input class="form-control" type="submit" Value="Log In">
+                </form>
+            </div>
+            <div class="  col-sm-4 col-sm-offset-2 form-container">
+                <form action="" id="signup">
+                    <input class="form-control" type="text" required name="username" placeholder="User Name" aria-label="User Name">
+                    <input class="form-control" type="email" required name="email" placeholder="Email" aria-label="Email">
+                    <input class="form-control" type="password" required placeholder="Passwaord" aria-label="Password" name="password" pattern="[a-z]{5,15}" title="Password should be at least 5 characters ">
+                    <input class="form-control" type="submit" Value="Sign Up">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid footer-container">
+        <footer>
+            <p class="text-center">&copy; Company 2016</p>
+        </footer>
+    </div>
+    <div class="added"><img src="Sources/correct.svg" class="mg-responsive center-block" alt="successfull submitting">
+        <p class="text-center">Thank or signing up. Please check your email for confirmation link</p>
+    </div>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js" integrity="sha256-ivk71nXhz9nsyFDoYoGf2sbjrR9ddh+XDkCcfZxjvcM=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.1/jquery.validate.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/functions.js"></script>
+</body>
+
+</html>
